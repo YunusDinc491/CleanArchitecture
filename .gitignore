@@ -1,0 +1,51 @@
+## .NET / Visual Studio derleme çıktıları
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Pp]ublish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Visual Studio / VS Code çalışma dosyaları
+.vs/
+.vscode/
+*.VC.db
+*.VC.VC.opendb
+
+## Rider
+.idea/
+*.sln.iml
+
+## Test sonuçları
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+
+## NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Build sonucu / log dosyaları
+*.log
+*.tlog
+*.cache
+*.dll
+*.exe
+*.pdb
+
+## Rastgele işletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+## Ortama/gizli bilgiye özel ayar dosyaları
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.env
